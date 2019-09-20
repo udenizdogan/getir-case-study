@@ -42,7 +42,8 @@
 </table>
 </br>
 <h4>Response</h4>
-```json
+
+```
 {
 "code":0,
 "msg":"Success",

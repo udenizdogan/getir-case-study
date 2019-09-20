@@ -1,7 +1,7 @@
-#getir-case-study
+# getir-case-study
 
 ## Endpoints
-/records
+`POST /records`
 </br>
 <h4>Parameters</h4>
 <table>

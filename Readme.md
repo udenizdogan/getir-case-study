@@ -1,7 +1,7 @@
-#getir-case-study
+# getir-case-study
 
 ## Endpoints
-/records
+`POST /records`
 </br>
 <h4>Parameters</h4>
 <table>
@@ -40,9 +40,9 @@
 </tr>
 </tbody>
 </table>
-</br>
 <h4>Response</h4>
-```json
+
+```
 {
 "code":0,
 "msg":"Success",

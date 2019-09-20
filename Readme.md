@@ -40,7 +40,6 @@
 </tr>
 </tbody>
 </table>
-</br>
 <h4>Response</h4>
 
 ```

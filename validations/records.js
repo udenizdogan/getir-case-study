@@ -36,13 +36,13 @@ module.exports = function checkParameter(data) {
     }
     else {
         if (!validator.isISO8601(data.endDate)) {
-            errors.endDate = 'endDate format is invalid, startDate should be YYYY-MM-DD';
+            errors.endDate = 'endDate format is invalid, endDate should be YYYY-MM-DD';
         }
     }
 
     if (!isEmpty(Date.startDate) && !isEmpty(Date.endDate)) {
         if (!validator.isBefore(data.startDate, data.endDate)) {
-            errors.minCount = 'endDate must be after start date';
+            errors.minCount = 'endDate must be after than start date';
         }
     }
 

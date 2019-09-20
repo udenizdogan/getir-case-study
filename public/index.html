@@ -6,8 +6,46 @@
 </head>
 
 <body>
-  <h1>Express</h1>
-  <p>Welcome to Express</p>
+<p>Endpoints</p>
+POST /records
+</br>
+<h4>Parameters</h4>
+<table>
+<thead>
+<tr>
+<th align="left">Name</th>
+<th align="center">Type</th>
+<th align="left">Description</th>
+<th align="left">Required</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">startDate</td>
+<td align="center">string</td>
+<td align="left">Start date of records, Format : YYYY-MM-DD</td>
+<td align="left">Required</td>
+</tr>
+<tr>
+<td align="left">endDate</td>
+<td align="center">string</td>
+<td align="left">Finish date of records, Format : YYYY-MM-DD</td>
+<td align="left">Required</td>
+</tr>
+<tr>
+<td align="left">minCount</td>
+<td align="center">string, integer</td>
+<td align="left">Minimum number of total count</td>
+<td align="left">Required</td>
+</tr>
+<tr>
+<td align="left">maxCount</td>
+<td align="center">string, integer</td>
+<td align="left">Maximum number of total count</td>
+<td align="left">Required</td>
+</tr>
+</tbody>
+</table>
 </body>
 
 </html>
